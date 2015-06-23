@@ -1,15 +1,13 @@
-WebFontConfig = { fontdeck: { id: '25696' } };
-
-		(function() {
-		  var wf = document.createElement('script');
-		  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-		  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-		  wf.type = 'text/javascript';
-		  wf.async = 'true';
-		  var s = document.getElementsByTagName('script')[0];
-		  s.parentNode.insertBefore(wf, s);
-		})();
-
+WebFontConfig = { fontdeck: { id: '41866' } };
+			(function() {
+				var wf = document.createElement('script');
+				wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+				'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+				wf.type = 'text/javascript';
+				wf.async = 'true';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(wf, s);
+			})();
 
 
 // var topRange      = 200,  // measure from the top of the viewport to X pixels down
