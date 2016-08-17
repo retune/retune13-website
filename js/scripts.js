@@ -21,16 +21,16 @@ $(document).ready(function() {
 //   	});
 
 	$("#intro").backstretch([
-      "http://retune.de/2013/img/Auger_Blinddate.jpg"
-    , "http://retune.de/2013/img/Bailey_01.jpg"
-    , "http://retune.de/2013/img/KyleMcDonald_ExR3.jpg"
-    , "http://retune.de/2013/img/Auger_FRC3.jpg"
-    , "http://retune.de/2013/img/JulianOliver_Transparency-Grenade.jpg"
-    , "http://retune.de/2013/img/Bailey_02.jpg"
-    , "http://retune.de/2013/img/KyleMcDonald_LightLeaks.jpg"
-    , "http://retune.de/2013/img/Deschamps-Sonsino_GoodNightLamp.jpg"
-    , "http://retune.de/2013/img/JulianOliver_four-interrupted-carparks.jpg"
-    
+      "https://retune.de/2013/img/Auger_Blinddate.jpg"
+    , "https://retune.de/2013/img/Bailey_01.jpg"
+    , "https://retune.de/2013/img/KyleMcDonald_ExR3.jpg"
+    , "https://retune.de/2013/img/Auger_FRC3.jpg"
+    , "https://retune.de/2013/img/JulianOliver_Transparency-Grenade.jpg"
+    , "https://retune.de/2013/img/Bailey_02.jpg"
+    , "https://retune.de/2013/img/KyleMcDonald_LightLeaks.jpg"
+    , "https://retune.de/2013/img/Deschamps-Sonsino_GoodNightLamp.jpg"
+    , "https://retune.de/2013/img/JulianOliver_four-interrupted-carparks.jpg"
+
   ], {duration: 3000, fade: 750});
 
 
@@ -45,7 +45,7 @@ $(document).ready(function() {
     , "Alexandra Deschamps-Sonsino - Good Night Lamp"
     , "Julian Oliver - Four Interrupted Carparks"
 	];
-	
+
 	$(window).on("backstretch.show", function (e, instance) {
   		$(".overlay").text( texts[instance.index] );
 	});
@@ -106,7 +106,7 @@ $(document).ready(function() {
 	   cur = cur[cur.length-1];
 
 	   var id = cur && cur.length ? cur[0].id : "";
-	   
+
 	   if (lastId !== id) {
 	       lastId = id;
 
@@ -114,7 +114,7 @@ $(document).ready(function() {
 	       menuItems
 	         .removeClass("active")
 	         .filter("[href=#"+id+"]").addClass("active");
-	   }                   
+	   }
 	});
 
 });
